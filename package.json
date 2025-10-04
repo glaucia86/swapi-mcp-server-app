@@ -1,0 +1,45 @@
+{
+  "name": "swapi-mcp-server-app",
+  "version": "1.0.0",
+  "description": "An application for study purposes to understand more about MCP with TypeScript using Star Wars API",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "swapi-mcp-server": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspect": "npx @modelcontextprotocol/inspect build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glaucia86/swapi-mcp-server-app.git"
+  },
+  "keywords": [
+    "MCP",
+    "TypeScript",
+    "Star Wars API",
+    "SWAPI"
+  ],
+  "author": "Glaucia Lemos <Twitter: @glaucia_lemos86>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glaucia86/swapi-mcp-server-app/issues"
+  },
+  "homepage": "https://github.com/glaucia86/swapi-mcp-server-app#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.19.1",
+    "axios": "^1.12.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "typescript": "^5.9.3"
+  }
+}
