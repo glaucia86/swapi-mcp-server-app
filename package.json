@@ -14,8 +14,7 @@
     "build": "tsc",
     "prepare": "npm run build",
     "watch": "tsc --watch",
-    "inspect": "npx @modelcontextprotocol/inspect build/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
   },
   "repository": {
     "type": "git",
