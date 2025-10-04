@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "swapi-mcp-server": {
+      "command": "node",
+      "args": [
+        "C:/Users/<seu-caminho-app>/swapi-mcp-server-app/build/index.js"
+      ]
+    }
+  }
+}
